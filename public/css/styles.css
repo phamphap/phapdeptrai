@@ -1,0 +1,192 @@
+#header{
+	height: 35px;
+    width: 100%;
+    background: #c6191f;
+}
+#header ul li{
+	list-style: none;
+	display: inline-block;
+	margin-top: -4px;
+    margin-left: 4px;
+}
+#header ul li i{
+	margin-left: 39px;
+	color: white;
+}
+#logo{
+	margin-left: 76px;
+    margin-top: 16px;
+}
+#menu{
+	background: #c6191f;
+	height: 52px;
+	margin-right: 90px;
+	width: 100%;
+}
+
+#timkiem input[type=text]{
+	height: 33px;
+    width: 262px;
+    margin-right: -4px;
+    margin-top: -9px;
+    border: none;
+    box-shadow: none;
+    padding-left: 9px;
+}
+#timkiem input[type=submit]{
+	background: red;
+    border: none;
+    height: 35px;
+    width: 100px;
+}
+#timkiem input[type=submit]:hover{
+	background-color: #c6191f;
+}
+#select{
+	height: 35px;
+	border: none;
+	background-color: #bfbfbf;
+    width: 129px;
+    margin-right: -4px;
+}
+#timkiem{
+	float: right;
+	margin-top: -66px;
+	margin-right: 250px;
+	border: 2px solid red;
+	width: 500px;
+}
+#container{
+	width: 70%;
+    height: 450px;
+    margin: 12px 359px;
+    position: relative;
+    margin-left: 303px;
+}
+#container img{
+	width: 100%;
+	height: 100%;
+	position: absolute;
+}
+#container button{
+	position: absolute;
+}
+#container .btn{
+	position: absolute;
+	width: 50px;
+	height: 50px;
+	border: none;
+	border-radius: 50%;
+	top: 200px;
+	font-size: 20px;
+	outline: none;
+}
+#container #btn2{
+	position: relative;
+	float: right;
+}
+#container #btn1:hover{
+	background-color: #b7b7b7;
+}
+#container #btn2:hover{
+	background-color: #b7b7b7;
+}
+.menucon{
+	padding-right: 74px;
+    /*padding-top: 18px;*/
+    font-size: 16px;
+}
+#row-border{
+	border-top: 2px solid #c6191f;
+    padding-bottom: 10px;
+}
+#footer-buttom{
+	background-color: #17b7ff;
+    height: 39px;
+    padding-left: 58px;
+    padding-top: 10px;
+}
+#footer-top{
+	background-color: #cccccc;
+	height: 250px;
+}
+.text-center h3{
+	background-color: #c6191f;
+    padding: 6px 0 7px 0px;
+    width: 16%;
+    margin-bottom: -22px;
+    border-radius: 5%;
+}
+.menucon li {
+	list-style-type: none; /* code này để bỏ các dấu chấm tròn*/
+	float: left; /* code này để menu dàn hàng ngang*/
+	margin-right: 10px; /* tạo lề cho các menu*/
+	line-height: 52px;
+}
+.menucon li a {
+	text-decoration:none;
+	padding: 5px;
+	color:white;
+}
+.menucon li:hover {
+	background-color: #500101;
+}
+.menucon li a:hover {
+	background-color: #500101;
+    /*padding: 18px 19px 14px 18px;*/
+    transition: .02s;
+}
+#sub-menu {
+	display: none;
+}
+.menucon li:hover ul#sub-menu {
+	display: block;
+	z-index: 1;
+}
+.menucon li {
+	position: relative;
+	float: right;
+	width: 167 	px;
+    margin-right: 23px;
+} 
+#sub-menu {
+	display: none;
+	position: absolute;
+	width: 180px;
+}
+.menu, #sub-menu {
+    padding: 11px 12px 15px 0px;
+    margin: 12px 0 0 0;
+    background-color: #292929;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    border-top: 3px solid #500101;
+    border-radius: 2%;
+    width: 204px;
+}
+#sub-menu {
+	margin: 0;
+}
+#sub-menu li a:hover{
+	background: none;
+	font-size: 17px;
+	color: #a0a0a0;
+}
+#sub-menu li{
+	float: left;
+	margin-top: 15px;
+}
+.menucon li:hover .dropbtn {
+	padding-right: 10px;
+    padding-left: 11px;
+}
+#sp{
+	border-bottom: 1px solid #500101;
+    margin-top: 49px;
+    width: 204px;
+}
+.dropbtn{
+}
+#sub-menu li a{
+	padding-left: 20px;
+}
